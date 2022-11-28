@@ -132,6 +132,7 @@ export default function HomeScreen() {
       <Stack.Screen
         name="Home"
         component={Home}
+        options={{ title: 'Scoreboard ' }}
       />
       <Stack.Screen
         name="DetailTeam"

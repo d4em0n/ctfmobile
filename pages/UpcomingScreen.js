@@ -203,6 +203,7 @@ export default function UpcomingScreen() {
       <Stack.Screen
         name="UpcomingScreen"
         component={Upcoming}
+        options={{ title: 'Upcoming' }}
       />
       <Stack.Screen
         name="DetailEvent"
